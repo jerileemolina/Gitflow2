@@ -173,10 +173,7 @@ pipeline {
   }
   parameters {
     string(name: 'IMPLEMENTAR', defaultValue: 'dev', description: '')
-<<<<<<< HEAD
     echo "Ahora cambio a la rama develop y la fusiono con feature"
-=======
-    echo "Hago un echo en la rama de funcionalidad (feature)"
->>>>>>> feature/feature
+    echo "Creo una rama release"
   }
 }
