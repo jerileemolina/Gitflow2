@@ -176,5 +176,6 @@ pipeline {
     echo "Ahora cambio a la rama develop y la fusiono con feature"
     echo "Creo una rama release y hago echo"
     echo "Pruebo la rama develop y a ver"
+    echo "Creo de nuevo rama release y publico"
   }
 }
