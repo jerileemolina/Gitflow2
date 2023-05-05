@@ -173,5 +173,6 @@ pipeline {
   }
   parameters {
     string(name: 'IMPLEMENTAR', defaultValue: 'dev', description: '')
+    echo "Hago un echo en la rama de funcionalidad (feature)"
   }
 }
